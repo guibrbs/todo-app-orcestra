@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { TodoForm } from "./TodoForm";
-import OPlano from "../assets/oplano.png";
 import { Todo } from "./Todo";
 
 export const TodoList = () => {
@@ -42,7 +41,7 @@ export const TodoList = () => {
   return (
     <div>
       <h1>
-        Qual <img src={OPlano} alt="O plano" width={35} /> para hoje?
+        Qual o plano para hoje?
       </h1>
       <TodoForm onSubmit={addTodo} />
       <Todo 
